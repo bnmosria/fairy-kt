@@ -1,4 +1,7 @@
 plugins {
     kotlin("jvm")
 }
-dependencies {}
+dependencies {
+    implementation(project(":persistence"))
+    implementation("org.springframework.boot:spring-boot-starter-web")
+}
